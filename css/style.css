@@ -89,6 +89,8 @@
     background-color: rgb(248, 239, 239, 0.5);
     margin-top: 23px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .year-box {
@@ -106,7 +108,6 @@
   
   .home-article {
     display: flex;
-    margin: 25px;
   }
   
   .home-article img {
@@ -116,6 +117,7 @@
   .home-article-content {
     align-self: center;
     padding: 25px;
+      padding-bottom: 55px;
   }
   
   .home-article-content a {
@@ -136,9 +138,14 @@
   .footer a {
     color: white;
   }
-
-@media(max-width: 991px){ 
+  @media(max-width: 500px){ 
     .content{
       padding-top: 170px;
     }
+    .home-articles{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 180px;
+    }
+
   }
