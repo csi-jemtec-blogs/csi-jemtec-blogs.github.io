@@ -50,7 +50,7 @@
       padding: 0;
     }
     .post-img {
-           height: 65%;
+           height: 60%;
       width: 100%;
     }
     .adjust-year {
@@ -61,4 +61,11 @@
       justify-content: flex-end;
       width: 100%;
     }
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-img {
+      height: 50%;
+      width: 100%;
+}
   }
